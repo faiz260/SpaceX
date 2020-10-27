@@ -1,7 +1,7 @@
 import gql from 'graphql-tag';
 
-export const LaunchList = gql`
-    query LaunchInfo{
+export const MissionsInfo = gql`
+    query MissionsInfo{
         launches{
             mission_name
             mission_id
